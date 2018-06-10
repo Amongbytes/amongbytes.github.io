@@ -1,293 +1,696 @@
 <!DOCTYPE html>
-<html prefix="
-og: http://ogp.me/ns#
-article: http://ogp.me/ns/article#
-" lang="es">
-    <head>
-    <meta charset="utf-8">
-    <meta name="description" content="The personal tech blog of software engineer Nicolas Guerrero">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Among Bytes | Among Bytes</title>
-
-                <link href="assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
-
-                <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
-
-      <link rel="canonical" href="http://nicogue.github.io/">
-
-            <link rel="icon" href="assets/img/favicon-32x32.png" sizes="32x32">
-            <link rel="icon" href="assets/img/favicon-192x192.png" sizes="192x192">
-            <link rel="icon" href="favicon.ico" sizes="16x16">
-            <link rel="icon" href="assets/img/favicon-96x96.png" sizes="96x96">
-            <link rel="icon" href="assets/img/favicon-160x160.png" sizes="160x160">
-
-
-
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
     
-        <!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
+    <!-- fonts collection 1 -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400italic,700italic' rel='stylesheet' type='text/css'>
 
-    
-
-
-<link href="http://fonts.googleapis.com/css?family=Source+Code+Pro:400,700%7CMerriweather:400,500%7CRaleway:400,500" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.extension.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/swiper.css" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" type="text/css" href="css/ie8-and-down.css" />
+    <![endif]-->
+    <!--[if IE 9]>
+        <link href="css/ie9.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+  	<title>Modesto</title>
 </head>
-<body>
-<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+<body class="fonts-1">
 
-<!-- Menubar -->
+    <!-- LOADER -->
+    <div id="loader-wrapper"></div>
 
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-<!-- This keeps the margins nice -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="http://nicogue.github.io/">
-
-                <span id="blog-title">Among Bytes</span>
-            </a>
-        </div>
-<!-- /.navbar-header -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav">
-                                <li class="active">
-<a href="."><i class="fa fa-home fa-lg"></i></a>
-                </li>
-<li>
-<a href="pages/about/">About</a>
-                </li>
-<li>
-<a href="pages/projects/">Projects</a>
-                </li>
-<li>
-<a href="archive.html">Archive</a>
-                </li>
-<li>
-<a href="categories/">Tags</a>
-
-                
-            </li>
-</ul>
-
-            <ul class="nav navbar-nav navbar-right">
+    <div class="overlay" data-rel="1">
+        <div class="animation-wrapper full-size"></div>
+        <div class="content-wrapper full-size">
+            <div class="cell-view page-height">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 col-xs-b30 col-sm-0">
+                        
+                            <nav class="text-left clearfix">
+                                <ul>
+                                    <li class="active">
+                                        <a href="index.html">Home</a>
+                                        <span class="toggle-icon"></span>
+                                        <ul>
+                                            <li class="active">
+                                                <a href="#">Fullscreen slider (Horizontal)</a>
+                                                <span class="toggle-icon"></span>
+                                                <ul>
+                                                    <li><a href="index.html">slider #1</a></li>
+                                                    <li><a href="index2.html">slider #2</a></li>
+                                                    <li><a href="index9.html">slider #3</a></li>
+                                                    <li><a href="index14.html">slider #4</a></li>
+                                                    <li><a href="index7.html">slider #5</a></li>
+                                                    <li><a href="index12.html">slider #6</a></li>
+                                                    <li><a href="index4.html">slider 4 sections #1</a></li>
+                                                    <li><a href="index10.html">slider 4 sections #2</a></li>
+                                                    <li><a href="index13.html">slider 4 sections #3</a></li>
+                                                    <li><a href="index5.html">slider 3 sections</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Fullscreen slider (Vertical)</a>
+                                                <span class="toggle-icon"></span>
+                                                <ul>
+                                                    <li><a href="index3.html">color slider</a></li>
+                                                    <li><a href="index6.html">slider creative #1</a></li>
+                                                    <li><a href="index8.html">slider creative #2</a></li>
+                                                    <li><a href="index15.html">vertical slider</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="index2.1.html">Middle pages</a>
+                                                <span class="toggle-icon"></span>
+                                                <ul>
+                                                    <li><a href="index2.1.html">left/rigth projects</a></li>
+                                                    <li><a href="index2.3.html">projects list #1</a></li>
+                                                    <li><a href="index2.6.html">projects list #2</a></li>
+                                                    <li><a href="index2.5.html">projects list #3</a></li>
+                                                    <li><a href="index2.7.html">projects list #4</a></li>
+                                                    <li><a href="index2.8.html">projects list #5</a></li>
+                                                    <li><a href="index2.9.html">projects list #6</a></li>
+                                                    <li><a href="index2.2.html">projects slider</a></li>
+                                                    <li><a href="index2.4.html">2 columns fullscreen</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="indexvideo.html">Video banner</a>
+                                            </li>
+                                        </ul>
+                                    </li>
                                     <li>
-<a href="https://github.com/nicogue"><i class="fa fa-github fa-lg"></i></a>
-                </li>
-<li>
-<a href="http://stackoverflow.com/users/681166/nicogue"><i class="fa fa-stack-overflow fa-lg"></i></a>
-                </li>
-<li>
-<a href="mailto:nicogue@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
-                </li>
-<li>
-<a href="rss.xml"><i class="fa fa-rss fa-lg"></i></a>
+                                        <a href="about1.html">About</a>
+                                        <span class="toggle-icon"></span>
+                                        <ul>
+                                            <li>
+                                                <a href="about1.html">About Us #1</a>
+                                            </li>
+                                            <li>
+                                                <a href="about2.html">About Us #2</a>
+                                            </li>
+                                            <li>
+                                                <a href="about3.html">About Us #3</a>
+                                            </li>
+                                            <li>
+                                                <a href="about4.html">About Us #4</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="portfolio1.html">Portfolio</a>
+                                        <span class="toggle-icon"></span>
+                                        <ul>
+                                            <li>
+                                                <a href="portfolio1.html">Projects List</a>
+                                                <span class="toggle-icon"></span>
+                                                <ul>
+                                                    <li><a href="portfolio5.html">2 columns grid #1</a></li>
+                                                    <li><a href="portfolio7.html">2 columns grid #2</a></li>
+                                                    <li><a href="portfolio2.html">2 columns fullscreen #1</a></li>
+                                                    <li><a href="portfolio3.html">2 columns fullscreen #2</a></li>
+                                                    <li><a href="portfolio1.html">3 columns #1</a></li>
+                                                    <li><a href="portfolio4.html">3 columns #2</a></li>
+                                                    <li><a href="portfolio6.html">3 columns #3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="detail1.html">Projects Detail</a>
+                                                <span class="toggle-icon"></span>
+                                                <ul>
+                                                    <li><a href="detail1.html">Project 1</a></li>
+                                                    <li><a href="detail2.html">Project 2</a></li>
+                                                    <li><a href="detail3.html">Project 3</a></li>
+                                                    <li><a href="detail4.html">Project 4</a></li>
+                                                    <li><a href="detail5.html">Project 5</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="services1.html">Services</a>
+                                        <span class="toggle-icon"></span>
+                                        <ul>
+                                            <li>
+                                                <a href="services1.html">Services #1</a>
+                                            </li>
+                                            <li>
+                                                <a href="services2.html">Services #2</a>
+                                            </li>
+                                            <li>
+                                                <a href="services3.html">Services #3</a>
+                                            </li>
+                                            <li>
+                                                <a href="services4.html">Services #4</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="blog1.html">Blog</a>
+                                        <span class="toggle-icon"></span>
+                                        <ul>
+                                            <li>
+                                                <a href="blog1.html.html">Blog List</a>
+                                                <span class="toggle-icon"></span>
+                                                <ul>
+                                                    <li><a href="blog1.html">Material style</a></li>
+                                                    <li><a href="blog2.html">3 columns grid</a></li>
+                                                    <li><a href="blog3.html">Left/right fullscreen</a></li>
+                                                    <li><a href="blog4.html">Right sidebar</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="blogdetail1.html">Blog Detail</a>
+                                                <span class="toggle-icon"></span>
+                                                <ul>
+                                                    <li><a href="blogdetail1.html">Right sidebar</a></li>
+                                                    <li><a href="blogdetail2.html">With banner grid</a></li>
+                                                    <li><a href="blogdetail3.html">Grid post</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="megamenu-wrapper">
+                                        <a href="#">Pages</a>
+                                        <span class="toggle-icon"></span>
+                                        <div class="megamenu clearfix">
+                                            <div class="row">
+                                                <div class="col-md-3">                                                    
+                                                    <a href="portfolio1.html" class="title">Projects List</a>
+                                                    <span class="toggle-icon"></span>
+                                                    <div class="rs-slide">
+                                                        <a href="portfolio5.html">2 columns grid #1</a>
+                                                        <a href="portfolio7.html">2 columns grid #2</a>
+                                                        <a href="portfolio1.html">3 columns #1</a>
+                                                        <a href="portfolio4.html">3 columns #2</a>
+                                                        <a href="portfolio6.html">3 columns #3</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <a href="detail1.html" class="title">Projects Detail</a>
+                                                    <span class="toggle-icon"></span>
+                                                    <div class="rs-slide">
+                                                        <a href="detail1.html">Project 1</a>
+                                                        <a href="detail2.html">Project 2</a>
+                                                        <a href="detail3.html">Project 3</a>
+                                                        <a href="detail4.html">Project 4</a>
+                                                        <a href="detail5.html">Project 5</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">                                                    
+                                                    <a href="contacts1.html" class="title">Contact</a>
+                                                    <span class="toggle-icon"></span>
+                                                    <div class="rs-slide">
+                                                        <a href="contacts1.html">Contact #1</a>
+                                                        <a href="contacts2.html">Contact #2</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">                                                    
+                                                    <a href="contacts1.html" class="title">Coming Soon</a>
+                                                    <span class="toggle-icon"></span>
+                                                    <div class="rs-slide">
+                                                        <a href="teaser1.html">Teaser #1</a>
+                                                        <a href="teaser2.html">Teaser #2</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="elements.html">Elements</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-md-offset-1 col-xs-b30 col-sm-0">
+                            <div class="simple-article light transparent col-xs-b30 col-sm-b50">
+                                <div class="h4 small">INFORMATION</div>
+                                <div class="empty-space col-xs-b10"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                            </div>
+                            <div class="simple-article light transparent col-xs-b30 col-sm-b50">
+                                <div class="h4 small">CONTACT INFO</div>
+                                <div class="empty-space col-xs-b10"></div>
+                                <p>Email: <a class="mouseover-simple" href="mailto:modesto@email.com" style="color: #fff;"><b>modesto@email.com</b></a></p>
+                                <p>Phone: <a class="mouseover-simple" href="tel:+0009872251" style="color: #fff;"><b>+000 987 22 51</b></a></p>
+                            </div>
+                            <div class="h4 small light">FOLLOW ME</div>
+                            <div class="empty-space col-xs-b15"></div>
+                            <div class="follow">
+                                <a href="#" class="entry"><i class="fa fa-instagram"></i></a>
+                                <a href="#" class="entry"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="entry"><i class="fa fa-pinterest-p"></i></a>
+                                <a href="#" class="entry"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="entry"><i class="fa fa-google-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-md-offset-1">
+                            <div class="twitter-entry col-xs-b15 col-sm-b30">
+                                <div class="row col-xs-b15">
+                                    <div class="col-xs-6">
+                                        <div class="date"><i>20 min ago</i></div>  
+                                    </div>
+                                    <div class="col-xs-6 text-right">
+                                        <i class="fa fa-twitter"></i>
+                                    </div>
+                                </div>
+                                <div class="simple-article light col-xs-b10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                                <a href="#" class="author">@modestodesign</a>
+                                <div class="col-xs-b10"></div>
+                                <a href="#" class="link"><i>https://www.youtube.com/</i></a>
+                            </div>
+                            <div class="overlay-thumbnails-wrapper">
+                                <div class="row nopadding">
+                                    <div class="col-xs-4"><a class="overlay-thumbnail" href="#"><img src="img/thumbnail-1.jpg" alt="" /><img src="img/thumbnail-1.jpg" alt="" /></a></div>
+                                    <div class="col-xs-4"><a class="overlay-thumbnail" href="#"><img src="img/thumbnail-2.jpg" alt="" /><img src="img/thumbnail-2.jpg" alt="" /></a></div>
+                                    <div class="col-xs-4"><a class="overlay-thumbnail" href="#"><img src="img/thumbnail-3.jpg" alt="" /><img src="img/thumbnail-3.jpg" alt="" /></a></div>
+                                    <div class="clear"></div>
+                                    <div class="col-xs-4"><a class="overlay-thumbnail" href="#"><img src="img/thumbnail-4.jpg" alt="" /><img src="img/thumbnail-4.jpg" alt="" /></a></div>
+                                    <div class="col-xs-4"><a class="overlay-thumbnail" href="#"><img src="img/thumbnail-5.jpg" alt="" /><img src="img/thumbnail-5.jpg" alt="" /></a></div>
+                                    <div class="col-xs-4"><a class="overlay-thumbnail" href="#"><img src="img/thumbnail-6.jpg" alt="" /><img src="img/thumbnail-6.jpg" alt="" /></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="button-close"></a>
+        </div>
+    </div>
+
+    <div id="content-block">
+        <div class="page-height responsive-initial">
+            <div class="homepage-1-backgrounds full-size" data-pagination-rel="0">
+                <div class="entry full-size" data-rel="0" style="background-image: url(img/background-2.jpg);"></div>
+                <div class="entry full-size active" data-rel="1" style="background-image: url(img/background-1.jpg);"></div>
+                <div class="entry full-size" data-rel="2" style="background-image: url(img/background-3.jpg);"></div>
+            </div>
+            <div class="homepage-1-container">
+
+                <!-- HEADER -->
+                <header class="type-1">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-2">
+                                <a class="logo"><img src="img/logo.png" alt="" /></a>  
+                            </div>
+                            <div class="col-xs-6 col-sm-10 text-right">
+
+                                <div class="navigation-wrapper">
+
+                                    <a class="logo responsive"><img src="img/logo.png" alt="" /></a>
+
+                                    <div class="navigation-overflow">
+                                        <nav class="text-left clearfix">
+                                            <ul>
+                                                <li class="active">
+                                                    <a href="index.html">Home</a>
+                                                    <span class="toggle-icon"></span>
+                                                    <ul>
+                                                        <li class="active">
+                                                            <a href="#">Fullscreen slider (Horizontal)</a>
+                                                            <span class="toggle-icon"></span>
+                                                            <ul>
+                                                                <li><a href="index.html">slider #1</a></li>
+                                                                <li><a href="index2.html">slider #2</a></li>
+                                                                <li><a href="index9.html">slider #3</a></li>
+                                                                <li><a href="index14.html">slider #4</a></li>
+                                                                <li><a href="index7.html">slider #5</a></li>
+                                                                <li><a href="index12.html">slider #6</a></li>
+                                                                <li><a href="index4.html">slider 4 sections #1</a></li>
+                                                                <li><a href="index10.html">slider 4 sections #2</a></li>
+                                                                <li><a href="index13.html">slider 4 sections #3</a></li>
+                                                                <li><a href="index5.html">slider 3 sections</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Fullscreen slider (Vertical)</a>
+                                                            <span class="toggle-icon"></span>
+                                                            <ul>
+                                                                <li><a href="index3.html">color slider</a></li>
+                                                                <li><a href="index6.html">slider creative #1</a></li>
+                                                                <li><a href="index8.html">slider creative #2</a></li>
+                                                                <li><a href="index15.html">vertical slider</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="index2.1.html">Middle pages</a>
+                                                            <span class="toggle-icon"></span>
+                                                            <ul>
+                                                                <li><a href="index2.1.html">left/rigth projects</a></li>
+                                                                <li><a href="index2.3.html">projects list #1</a></li>
+                                                                <li><a href="index2.6.html">projects list #2</a></li>
+                                                                <li><a href="index2.5.html">projects list #3</a></li>
+                                                                <li><a href="index2.7.html">projects list #4</a></li>
+                                                                <li><a href="index2.8.html">projects list #5</a></li>
+                                                                <li><a href="index2.9.html">projects list #6</a></li>
+                                                                <li><a href="index2.2.html">projects slider</a></li>
+                                                                <li><a href="index2.4.html">2 columns fullscreen</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="indexvideo.html">Video banner</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="about1.html">About</a>
+                                                    <span class="toggle-icon"></span>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="about1.html">About Us #1</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="about2.html">About Us #2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="about3.html">About Us #3</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="about4.html">About Us #4</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="portfolio1.html">Portfolio</a>
+                                                    <span class="toggle-icon"></span>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="portfolio1.html">Projects List</a>
+                                                            <span class="toggle-icon"></span>
+                                                            <ul>
+                                                                <li><a href="portfolio5.html">2 columns grid #1</a></li>
+                                                                <li><a href="portfolio7.html">2 columns grid #2</a></li>
+                                                                <li><a href="portfolio2.html">2 columns fullscreen #1</a></li>
+                                                                <li><a href="portfolio3.html">2 columns fullscreen #2</a></li>
+                                                                <li><a href="portfolio1.html">3 columns #1</a></li>
+                                                                <li><a href="portfolio4.html">3 columns #2</a></li>
+                                                                <li><a href="portfolio6.html">3 columns #3</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="detail1.html">Projects Detail</a>
+                                                            <span class="toggle-icon"></span>
+                                                            <ul>
+                                                                <li><a href="detail1.html">Project 1</a></li>
+                                                                <li><a href="detail2.html">Project 2</a></li>
+                                                                <li><a href="detail3.html">Project 3</a></li>
+                                                                <li><a href="detail4.html">Project 4</a></li>
+                                                                <li><a href="detail5.html">Project 5</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li>
+                                                    <a href="services1.html">Services</a>
+                                                    <span class="toggle-icon"></span>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="services1.html">Services #1</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="services2.html">Services #2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="services3.html">Services #3</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="services4.html">Services #4</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li>
+                                                    <a href="blog1.html">Blog</a>
+                                                    <span class="toggle-icon"></span>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="blog1.html.html">Blog List</a>
+                                                            <span class="toggle-icon"></span>
+                                                            <ul>
+                                                                <li><a href="blog1.html">Material style</a></li>
+                                                                <li><a href="blog2.html">3 columns grid</a></li>
+                                                                <li><a href="blog3.html">Left/right fullscreen</a></li>
+                                                                <li><a href="blog4.html">Right sidebar</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="blogdetail1.html">Blog Detail</a>
+                                                            <span class="toggle-icon"></span>
+                                                            <ul>
+                                                                <li><a href="blogdetail1.html">Right sidebar</a></li>
+                                                                <li><a href="blogdetail2.html">With banner grid</a></li>
+                                                                <li><a href="blogdetail3.html">Grid post</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class="megamenu-wrapper">
+                                                    <a href="#">Pages</a>
+                                                    <span class="toggle-icon"></span>
+                                                    <div class="megamenu clearfix">
+                                                        <div class="row">
+                                                            <div class="col-md-3">                                                    
+                                                                <a href="portfolio1.html" class="title">Projects List</a>
+                                                                <span class="toggle-icon"></span>
+                                                                <div class="rs-slide">
+                                                                    <a href="portfolio5.html">2 columns grid #1</a>
+                                                                    <a href="portfolio7.html">2 columns grid #2</a>
+                                                                    <a href="portfolio1.html">3 columns #1</a>
+                                                                    <a href="portfolio4.html">3 columns #2</a>
+                                                                    <a href="portfolio6.html">3 columns #3</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <a href="detail1.html" class="title">Projects Detail</a>
+                                                                <span class="toggle-icon"></span>
+                                                                <div class="rs-slide">
+                                                                    <a href="detail1.html">Project 1</a>
+                                                                    <a href="detail2.html">Project 2</a>
+                                                                    <a href="detail3.html">Project 3</a>
+                                                                    <a href="detail4.html">Project 4</a>
+                                                                    <a href="detail5.html">Project 5</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">                                                    
+                                                                <a href="contacts1.html" class="title">Contact</a>
+                                                                <span class="toggle-icon"></span>
+                                                                <div class="rs-slide">
+                                                                    <a href="contacts1.html">Contact #1</a>
+                                                                    <a href="contacts2.html">Contact #2</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">                                                    
+                                                                <a href="contacts1.html" class="title">Coming Soon</a>
+                                                                <span class="toggle-icon"></span>
+                                                                <div class="rs-slide">
+                                                                    <a href="teaser1.html">Teaser #1</a>
+                                                                    <a href="teaser2.html">Teaser #2</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="elements.html">Elements</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+
+                                    <div class="follow style-1">
+                                        <span class="title">Follow me:</span>
+                                        <a class="entry" href="#"><i class="fa fa-instagram"></i></a>
+                                        <a class="entry" href="#"><i class="fa fa-facebook"></i></a>
+                                        <a class="entry" href="#"><i class="fa fa-pinterest-p"></i></a>
+                                        <a class="entry" href="#"><i class="fa fa-twitter"></i></a>
+                                        <a class="entry" href="#"><i class="fa fa-google-plus"></i></a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="hamburger-icon open-navigation">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <div class="hamburger-icon open-overlay" data-rel="1">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="close-layer toggle-visibility"><div class="button-close"></div></div>
+                </header>
+
+                <div class="homepage-1-slider valign-middle">
+                    
+                    <div class="swiper-container" data-speed="1000" data-center="1" data-slides-per-view="2" data-ini="1" data-pagination-rel="0">
+                        <div class="hidden swiper-button-prev swiper-button"></div>
+                        <div class="hidden swiper-button-next swiper-button"></div>
+
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="slide-content">
+                                    <div class="text">
+                                        <div class="rotate">
+                                            <div class="slide-title h3">Lisbon photosesion</div>
+                                            <div class="empty-space col-xs-b15"></div>
+                                            <div class="slide-description simple-article large grey">Lorem ipsum dolor sit eiusmod tempor incididunt magna.</div>
+                                        </div>
+                                    </div>
+                                    <div class="background-wrapper full-size">
+                                        <a class="entry full-size mouseover" style="background-image: url(img/background-2.jpg);" href="#">
+                                            <span class="mouseover-helper-frame"></span>
+                                            <span class="mouseover-helper-icon"></span>
+                                        </a>
+                                        <div class="full-size link-overlay"></div>
+                                    </div>
+                                    <div class="tags">
+                                        <div class="rotate">
+                                            <div class="title"><i>branding / photoshooting</i></div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="slide-content">
+                                    <div class="text">
+                                        <div class="rotate">
+                                            <div class="slide-title h3">Lisbon photosesion</div>
+                                            <div class="empty-space col-xs-b15"></div>
+                                            <div class="slide-description simple-article large grey">Lorem ipsum dolor sit eiusmod tempor incididunt magna.</div>
+                                        </div>
+                                    </div>
+                                    <div class="background-wrapper full-size">
+                                        <a class="entry full-size mouseover" style="background-image: url(img/background-1.jpg);" href="#">
+                                            <span class="mouseover-helper-frame"></span>
+                                            <span class="mouseover-helper-icon"></span>
+                                        </a>
+                                        <div class="full-size link-overlay"></div>
+                                    </div>
+                                    <div class="tags">
+                                        <div class="rotate">
+                                            <div class="title"><i>branding / photoshooting</i></div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="slide-content">
+                                    <div class="text">
+                                        <div class="rotate">
+                                            <div class="slide-title h3">Lisbon photosesion</div>
+                                            <div class="empty-space col-xs-b15"></div>
+                                            <div class="slide-description simple-article large grey">Lorem ipsum dolor sit eiusmod tempor incididunt magna.</div>
+                                        </div>
+                                    </div>
+                                    <div class="background-wrapper full-size">
+                                        <a class="entry full-size mouseover" style="background-image: url(img/background-3.jpg);" href="#">
+                                            <span class="mouseover-helper-frame"></span>
+                                            <span class="mouseover-helper-icon"></span>
+                                        </a>
+                                        <div class="full-size link-overlay"></div>
+                                    </div>
+                                    <div class="tags">
+                                        <div class="rotate">
+                                            <div class="title"><i>branding / photoshooting</i></div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="homepage-1-slider homepage-1-pagination">
+                    <div class="swiper-slide">
+                        <div class="slide-content valign-middle">
+                            <div class="slider-click left" data-pagination-rel="0">
+                                <div class="arrow"></div>
+                                <div class="number">
+                                    <div class="left"></div>
+                                    <div class="middle"></div>
+                                    <div class="right">3</div>
+                                </div>
+                            </div>
+                            <div class="text-center" style="width: 100%;">
+                                <a href="#" class="button type-1">view all projects</a>
+                            </div>
+                            <div class="slider-click right" data-pagination-rel="0">
+                                <div class="arrow"></div>
+                                <div class="number">
+                                    <div class="left"></div>
+                                    <div class="middle"></div>
+                                    <div class="right">3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 
-            </li>
-</ul>
+                
+            </div>
+            <div class="empty-space col-xs-b30 col-sm-b0"></div>
         </div>
-<!-- /.navbar-collapse -->
-    </div>
-<!-- /.container -->
-</nav>
-
-<!-- End of Menubar -->
-
-<div class="container" id="content" role="main">
-    <div class="body-content">
-        <!--Body content-->
-        <div class="row">
-            
-<div class="postindex">
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="posts/el-nuevo-salva-vidas-de-gmail-experimental/" class="u-url" rel="bookmark">El nuevo salva vidas de gmail [experimental]</a></h1>
-        <div class="metadata">
-            <p class="dateline"><time class="published dt-published" datetime="2015-06-24T02:19:57+00:00" title="June 24, 2015">June 24, 2015</time></p>
-                <p class="commentline">            <a href="posts/el-nuevo-salva-vidas-de-gmail-experimental/#disqus_thread" data-disqus-identifier="cache/posts/el-nuevo-salva-vidas-de-gmail-experimental.html">Comments</a>
-
-
-        </p>
-</div>
-    </header>
-    <div class="p-summary entry-summary">
-    <div>
-<img alt="http://oi58.tinypic.com/etz7v4.jpg" class="align-center" src="http://oi58.tinypic.com/etz7v4.jpg">
-<p>Quienes aun explotan el mail como medio de comunicación mas frecuentemente que el facebook como es mi caso he de imaginar que mas de una vez los habrá abordado esa sensación de desprecio por uno mismo al darse cuenta que mandaron un mail que nunca debió haber salido de la casilla, en reiteradas ocasiones y pese a haber leído el mail me sucedió eso...escribía mal el nombre de alguien, un par de lineas mas abajo me olvidaba el borrador del original que había enviado, me olvidaba de adjuntar el documento, etc... y por mas que hoy dia los recaudos sean mayores seguimos siendo tan propensos como antes a cometer errores.</p>
-<p class="more"><a href="posts/el-nuevo-salva-vidas-de-gmail-experimental/">Leer más…</a></p>
-</div>
-    </div>
-    </article>
-    <hr>
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="posts/improve-your-productivity-with-these-awesome-terminals/" class="u-url" rel="bookmark">Improve your productivity with these awesome terminals</a></h1>
-        <div class="metadata">
-            <p class="dateline"><time class="published dt-published" datetime="2015-06-22T14:28:40+00:00" title="June 22, 2015">June 22, 2015</time></p>
-                <p class="commentline">            <a href="posts/improve-your-productivity-with-these-awesome-terminals/#disqus_thread" data-disqus-identifier="cache/posts/improve-your-productivity-with-these-awesome-terminals.html">Comments</a>
-
-
-        </p>
-</div>
-    </header>
-    <div class="p-summary entry-summary">
-    <div>
-<img alt="http://goo.gl/W9Gl9L" class="align-center" src="http://goo.gl/W9Gl9L">
-<p>My first encounter with GNU/Linux was in 2009, but I started to use it professionally in 2012. In those three years I hadn’t realized about the power of Shell, a command language interpreter. The Linux console terminal is generally used to provide text user interface applications and important kernel messages. In many Linux distributions, the default user interface is the real terminal.</p>
-<p class="more"><a href="posts/improve-your-productivity-with-these-awesome-terminals/">Leer más…</a></p>
-</div>
-    </div>
-    </article>
-    <hr>
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="posts/0day-exploits-para-robar-contrasenas-de-os-x-y-ios/" class="u-url" rel="bookmark">[0day] Exploits para robar contraseñas de OS X y IOS</a></h1>
-        <div class="metadata">
-            <p class="dateline"><time class="published dt-published" datetime="2015-06-22T12:38:41+00:00" title="June 22, 2015">June 22, 2015</time></p>
-                <p class="commentline">            <a href="posts/0day-exploits-para-robar-contrasenas-de-os-x-y-ios/#disqus_thread" data-disqus-identifier="cache/posts/0day-exploits-para-robar-contrasenas-de-os-x-y-ios.html">Comments</a>
-
-
-        </p>
-</div>
-    </header>
-    <div class="p-summary entry-summary">
-    <div>
-<img alt="http://4.bp.blogspot.com/-Up3S05dGIPs/USTF4vFrLJI/AAAAAAAAIjY/CJnzqobe0rk/s1600/Apple+Hacked.jpg" class="align-center" src="http://4.bp.blogspot.com/-Up3S05dGIPs/USTF4vFrLJI/AAAAAAAAIjY/CJnzqobe0rk/s1600/Apple+Hacked.jpg">
-<p>Quienes hayan desarrollado para las plataformas de Apple sabran cuan rigurosos son con sus estandares, cuando pensamos en Apple a muchos se nos viene a la mente palabras como performance, sobriedad, elegancia.... seguridad??</p>
-<p class="more"><a href="posts/0day-exploits-para-robar-contrasenas-de-os-x-y-ios/">Leer más…</a></p>
-</div>
-    </div>
-    </article>
-    <hr>
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="posts/seti_ui-la-media-naranja-de-sublime-text/" class="u-url" rel="bookmark">Seti_UI la media naranja de Sublime-text</a></h1>
-        <div class="metadata">
-            <p class="dateline"><time class="published dt-published" datetime="2015-06-12T14:46:13+00:00" title="June 12, 2015">June 12, 2015</time></p>
-                <p class="commentline">            <a href="posts/seti_ui-la-media-naranja-de-sublime-text/#disqus_thread" data-disqus-identifier="cache/posts/set_ui-la-media-naranja-de-sublime-text.html">Comments</a>
-
-
-        </p>
-</div>
-    </header>
-    <div class="p-summary entry-summary">
-    <div>
-<img alt="http://i61.tinypic.com/24xl6qg.png" class="align-center" src="http://i61.tinypic.com/24xl6qg.png">
-<p>Me involucré en desarrollo allá por el 2010 cuando era un cuasi puberto y tuve mi primer experiencia profesional en el 2011, desde entonces he probado mas de un centenar de IDE's para desarrollo, casi siempre con Eclipse o Netbeans y si bien supe desenvolverme bastante bien con estos entornos nunca deje de sentirme incomodo.</p>
-<p>No fue hasta mediados del 2012 que conoci Sublime-text, fue amor a primera vista y desde entonces lo uso hasta para redactar mis recetas de cocina, su simplicidad enamora y ni hablar de su gran variedad de plugins que dia a dia se multiplica.</p>
-<p class="more"><a href="posts/seti_ui-la-media-naranja-de-sublime-text/">Leer más…</a></p>
-</div>
-    </div>
-    </article>
-    <hr>
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="posts/catapultando-el-mail-corporativo-con-slack/" class="u-url" rel="bookmark">Catapultando el mail corporativo con SLACK</a></h1>
-        <div class="metadata">
-            <p class="dateline"><time class="published dt-published" datetime="2015-03-06T23:03:01+00:00" title="March 06, 2015">March 06, 2015</time></p>
-                <p class="commentline">            <a href="posts/catapultando-el-mail-corporativo-con-slack/#disqus_thread" data-disqus-identifier="cache/posts/catapultando-el-mail-corporativo-con-slack.html">Comments</a>
-
-
-        </p>
-</div>
-    </header>
-    <div class="p-summary entry-summary">
-    <div>
-<img alt="http://goo.gl/KGFTD3" class="align-center" src="http://goo.gl/KGFTD3">
-<p>Una de las principales necesidades que una empresa busca resolver es la eficiencia de la comunicación. Dependiendo de qué tanto se ejerza, se define considerablemente el éxito ó fracaso de la misma.</p>
-<p>Quienes hayan trabajado en grandes empresas sobre todo en una software factory se habra percatado de lo tedioso que se vuelve ponerse al tanto de las novedades del proyecto, que si el cliente ha mandado un mail, si me han asignado algun issue en jira, leer los chat del cliente en skype,etc.</p>
-<p class="more"><a href="posts/catapultando-el-mail-corporativo-con-slack/">Leer más…</a></p>
-</div>
-    </div>
-    </article>
-    <hr>
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="posts/deployment-nikola--github/" class="u-url" rel="bookmark">Deploy en GITHUB</a></h1>
-        <div class="metadata">
-            <p class="dateline"><time class="published dt-published" datetime="2015-02-02T12:39:11+00:00" title="February 02, 2015">February 02, 2015</time></p>
-                <p class="commentline">            <a href="posts/deployment-nikola--github/#disqus_thread" data-disqus-identifier="cache/posts/Deploy-en-GITHUB.html">Comments</a>
-
-
-        </p>
-</div>
-    </header>
-    <div class="p-summary entry-summary">
-    <div>
-<p>Luego de estar un par de horas investigando y consultando finalmente di con la receta
-justa para poder deployar en <em>GITHUB</em> al principio me la di un poco contra la pared por
-un problema con las ambientes virtuales (que si bien no es necesario es una buena practica),
-despues tuve problemas con su respectiva configuracion pero casi todo se debe a que estaba
-tratando de reproducir los mismos pasos de una distribucion diferente de GNU/linux.</p>
-<p>Para crear un despliegue de nikola en github como página principal seguir los
-siguientes pasos:</p>
-<p class="more"><a href="posts/deployment-nikola--github/">Leer más…</a></p>
-</div>
-    </div>
-    </article>
-    <hr>
-    <article class="h-entry post-text">
-    <header>
-        <h1 class="p-name entry-title"><a href="posts/hello-universe/" class="u-url" rel="bookmark">Hello Universe</a></h1>
-        <div class="metadata">
-            <p class="dateline"><time class="published dt-published" datetime="2015-01-25T19:26:59+00:00" title="January 25, 2015">January 25, 2015</time></p>
-                <p class="commentline">            <a href="posts/hello-universe/#disqus_thread" data-disqus-identifier="cache/posts/hello-universe.html">Comments</a>
-
-
-        </p>
-</div>
-    </header>
-    <div class="p-summary entry-summary">
-    <div>
-<p>Finalmente me decidi a abrir un blog despues de mucho pensarlo, se podria decir que casi en la ultima decada he sido colaborador de diferentes sitios web y/o blogs pero ello implicaba adherirse a sus politicas de publicacion incluso en aquellos en los que era su propio administrador.....</p>
-<p class="more"><a href="posts/hello-universe/">Leer más…</a></p>
-</div>
-    </div>
-    </article>
-    <hr>
-</div>
-
-               <script>var disqus_shortname="nicogue";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
-
-
-
-        </div>
-        <!--End of body content-->
-
+        <!-- FOOTER -->
         <footer>
-            <a href="mailto:nicogue@gmail.com">Nicolas Guerrero</a> - Blog powered by <a href="http://getnikola.com" rel="nofollow">Nikola</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">CC BY-NC-ND</a>
-            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xs-text-center col-md-text-left col-sm-b10 col-md-b0">
+                        <div class="copyright">
+                            <div class="simple-article small grey transparent">
+                                &copy; 2016 All rights reserved. 
+                                <div class="developed-by">Development with <i class="fa fa-heart"></i> by <a href="http://themeforest.net/user/unionagency" target="blank">UnionAgency.</a></div>
+                            </div>
+                        </div>
+                        <div class="empty-space col-xs-b20 col-md-b0"></div>
+                    </div>
+                    <div class="col-md-6 col-xs-text-center col-md-text-right">
+                        <div class="follow">
+                            <span class="title">Follow me:</span>
+                            <a class="entry" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a class="entry" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a class="entry" href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p"></i></a>
+                            <a class="entry" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a class="entry" href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
     </div>
-</div>
 
-            <script src="assets/js/all-nocdn.js"></script>
-        <script src="assets/js/colorbox-i18n/jquery.colorbox-es.js"></script>
-    
-
-    <script>jQuery("a.image-reference,!.islink").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
-    <!-- fancy dates -->
-    <script>
-    moment.locale("es");
-    fancydates(0, "YYYY-MM-DD HH:mm");
-    </script>
-    <!-- end fancy dates -->
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-58266216-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/global.js"></script>
 
 </body>
 </html>
