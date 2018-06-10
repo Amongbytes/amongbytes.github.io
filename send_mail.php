@@ -1,6 +1,6 @@
 <?
-$mail_to = "yourpersonalemail@gmail.com";
-$mail_from = "webmaster@example.com";
+$mail_to = "nicogue.it@gmail.com";
+$mail_from = "admin@nicogue.com";
 
 
 $name = strip_tags(trim($_POST['name']));
@@ -10,7 +10,7 @@ if($subject!='') $mail_subject = $subject;
 else $mail_subject = 'Contact form of website';
 $text = strip_tags(trim($_POST['message']));
 
-$message = "<h3>CONTACT FORM WAS SUBMITTED</h3>"."<br>";
+$message = "<h3>Contacto desde nicogue.com</h3>"."<br>";
 $message .= "<b>Name:</b> ".$name."<br>";
 $message .= "<b>Email:</b> ".$email."<br>";
 $message .= "<b>Message:</b> ".$text."<br>";
