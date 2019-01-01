@@ -1289,11 +1289,12 @@ img.tp-slider-alternative-image	{
 	border-style:none;
 	border-width:0;
 	padding:0;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 .tp-caption.medium_primary,.medium_primary {
-	color:rgba(159,206,78,1.00);
-	font-size:20px;
+	color:rgba(255,255,255,1.00);
+	font-size:18px;
 	line-height:20px;
 	font-weight:900;
 	font-style:normal;

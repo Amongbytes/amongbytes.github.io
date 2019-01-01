@@ -3592,7 +3592,7 @@ object {
 }
 
 .boxed-wrap {
-    background: #fff;
+    background: #   ;
     background-attachment: scroll;
     background-position: center center;
     background-repeat: repeat;
@@ -5879,7 +5879,7 @@ img.grayscale:hover {
 }
 
 .tabs-style-2 .nav-tabs>li.active>a {
-    color: #000
+    color: #2460A7
 }
 
 .tabs-style-3 .nav-tabs {
@@ -6705,7 +6705,7 @@ img.grayscale:hover {
 
 @media (min-width:900px) {
     .primary-nav>.megamenu>.dropdown-menu {
-        background: #fff;
+        background: #2460A7;
         border-top: 2px solid #2471A3;
         padding: 0
     }
@@ -11326,7 +11326,7 @@ button.close {
 
 .footer-widget {
     font-size: 0.9em;
-    background: #212121;
+    background: #2460A7;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -11379,7 +11379,7 @@ button.close {
 .footer-widget .social-widget-wrap.social-widget-square i {
     margin-right: 4px;
     background: #fff;
-    color: #333
+    color: #2460A7
 }
 
 .footer-widget .social-widget-wrap.social-widget-square a:hover i {
@@ -11406,7 +11406,7 @@ button.close {
 }
 
 .footer-widget .posts-thumbnail-content .posts-thumbnail-meta {
-    color: #7c7c7c
+    color: #2460A7
 }
 
 .footer-widget .posts-thumbnail-image {
@@ -11429,12 +11429,12 @@ button.close {
 }
 
 .footer-widget a {
-    color: #ccc;
+    color: #2460A7;
     font-weight: 300
 }
 
 .footer-widget a:hover {
-    color: #fff
+    color: #2460A7
 }
 
 .dh-enable-animation .footer-space {
@@ -11446,9 +11446,9 @@ button.close {
         display: block
     }
 }
-
+/* color de texto */
 .footer {
-    color: #959595
+    color: #fff
 }
 
 @media (min-width:992px) {
@@ -11464,7 +11464,7 @@ button.close {
 }
 
 .footer a {
-    color: #ccc
+    color: #fff
 }
 
 .footer a:hover {
@@ -11472,7 +11472,7 @@ button.close {
 }
 
 .footer-info {
-    background: #161616;
+    background: #2460A7;
     font-size: 85%
 }
 
@@ -11518,9 +11518,9 @@ button.close {
     color: #fff;
     border-bottom: 1px solid
 }
-
+/**color menu social */
 .footer-social {
-    background: #161616;
+    background: #2460A7;
     text-align: center;
     padding-top: 30px
 }
@@ -11529,13 +11529,13 @@ button.close {
     width: 40px;
     height: 40px;
     display: inline-block;
-    border: 1px solid #959595;
+    border: 1px solid #fff;
     -webkit-border-radius: 100%;
     border-radius: 100%;
     line-height: 38px;
     font-size: 14px;
     margin: 0 10px;
-    color: #959595
+    color: #fff
 }
 
 .footer-social a:hover {
@@ -11563,7 +11563,7 @@ button.close {
     height: 50px;
     line-height: 50px;
     padding: 0;
-    background: #333;
+    background: #fff;
     color: #fff;
     top: 0;
     right: 0
@@ -13248,7 +13248,7 @@ ul.isotope-grid-post {
     vertical-align: middle;
     font-size: 85%;
     border: 1px solid #e1e1e1;
-    color: #444
+    color: #2460A7
 }
 
 .widget_tag_cloud .tagcloud a:hover,
